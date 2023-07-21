@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.heather{
+    box-shadow: 0 5px 10px 0 rgb(145, 143, 143);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+.heather img{
+    width: 148px;
+    
+}
+
+.heather ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    background-color: pink;
+    display: flex;
+    width: 673px;
+    justify-content: space-evenly;  
+   
+}
+
+.heather li{
+    background-color: violet;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    /* aca poner tipo de letra */
+}
+
+.imgmain{
+    width: 1349px;
+}
+
+.prodsection{
+    background-color: #fde192;
+    border: 2px solid;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.prodsection div{
+    background-color: #8b8bd3;
+    border: 2px solid yellow;
+    padding: 15px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+h1{
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.prodsection img{
+    width: 300px;
+}
+
+.prodsection p{
+    width: 300px;
+    padding: 10px;
+    margin: 25px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.nossection{
+    margin: 50px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nossection div{
+  
+    
+
+}
+
+.nossection img{
+    width: 650px;
+}
+
+
+.nossection p{
+    font-family: 'DM Sans', sans-serif;
+    padding: 29px;
+    text-align: center;
+
+}
+
+/* PIEDRAS */
+.piedrasection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+  
+}
+
+.piedrasection div{
+    border: 2px solid black;
+    width: 200px;
+    height: 150px;
+    margin: 37px;
+    overflow: hidden;
+    padding: 76px;
+
+}
+
+.piedrasection img{
+    width: 150px;
+    
+
+}
+.formulario{
+    background-color: gray;
+}
+
+.footer{
+    background-color: rgb(135, 68, 161);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer li{
+    padding: 10px;
+    
+}

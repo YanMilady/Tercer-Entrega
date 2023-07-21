@@ -1,0 +1,440 @@
+@import "./general/reset";
+@import "./general/fonts";
+
+
+@media (min-width:375px){
+    /** INICIO */
+.navbar-brand img{
+
+    width: 90px;
+}
+.imgmain{
+    width: 100%;
+}
+
+    /** INICIO */
+
+.navbar-brand img{
+    width: 100%;
+    height: 60px;
+  }
+
+.nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+    /* MAIN */
+.imgmain {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.div-centrado{
+    width: 500px;
+    margin: auto;
+}
+.main_h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 25px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+.accordion-body{
+    width: 350px;
+    text-align: justify;
+    font-family: 'Comfortaa', cursive;
+}
+
+.div_nos_p{
+    padding: 15px;
+    text-align: start;
+    font-family: 'Comfortaa', cursive;
+}
+.main_productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.prodsection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.prodsection div{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.prodsection div img{
+    width: 250px;
+}
+.prodsection div p{
+    padding: 15px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+
+/**NOSOTROS  */
+
+.div_nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgnos{
+    width: 300px;
+}
+
+
+/**PIEDRAS  */
+
+.piedra_grilla_padre{
+    display: flex;
+    flex-direction: column;
+}
+.piedra_grilla_padre div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.piedra_grilla_padre img{
+    width: 150px;
+}
+
+.piedra_grilla_padre p{
+    text-align: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.img_piedra_titulo{
+    font-weight: 500;
+}
+
+/**PRODUCTOS  */
+
+/**CONTACTOS  */
+.formulario{
+    font-family: 'Comfortaa', cursive;
+}
+
+    /* FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+    flex-direction: column;
+}
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer li{
+    list-style-type: none;
+    padding: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+}
+
+/* Estrategia: Mobile First 460px*/
+
+@media (min-width:420px){
+
+    /** INICIO */
+
+.navbar-brand img{
+    width: auto;
+    height: 60px;
+  }
+
+.nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+    /* MAIN */
+.imgmain {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.div-centrado{
+    width: 500px;
+    margin: auto;
+}
+.main_h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 25px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+.accordion-body{
+    width: 350px;
+    text-align: justify;
+    font-family: 'Comfortaa', cursive;
+}
+
+.div_nos_p{
+    padding: 15px;
+    text-align: start;
+    font-family: 'Comfortaa', cursive;
+}
+.main_productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.prodsection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.prodsection div{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.prodsection div img{
+    width: 250px;
+}
+.prodsection div p{
+    padding: 15px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+
+/**NOSOTROS  */
+
+.div_nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgnos{
+    width: 300px;
+}
+
+
+/**PIEDRAS  */
+
+.piedra_grilla_padre{
+    display: flex;
+    flex-direction: column;
+}
+.piedra_grilla_padre div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.piedra_grilla_padre img{
+    width: 150px;
+}
+
+.piedra_grilla_padre p{
+    text-align: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.img_piedra_titulo{
+    font-weight: 500;
+}
+
+/**PRODUCTOS  */
+
+/**CONTACTOS  */
+.formulario{
+    font-family: 'Comfortaa', cursive;
+}
+
+    /* FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+    flex-direction: column;
+}
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer li{
+    list-style-type: none;
+    padding: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+}
+
+/* Estrategia: Mobile First 768px*/
+
+@media (min-width:768px){
+
+    /** INICIO **/
+.heather{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.main h2{
+    margin: 30px
+}
+.prodsection div {
+    margin: 17px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+.prodsection img{
+    width: 345px;
+}
+.prodsection div p{
+    text-align: inherit;
+}
+/**NOSOTROS  */
+.imgnos{
+    width: 450px;
+}
+/**PIEDRAS  */
+.piedra_grilla_padre div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.piedra_grilla_padre p{
+    padding: 40px;
+
+}
+
+/**PRODUCTOS  */
+
+/**CONTACTO  */
+
+.footer{
+    flex-direction: row;
+}
+}
+
+/* Estrategia: Mobile Last 1024px*/
+@media (min-width:1024px){
+    /** INICIO **/
+    /* MAIN */
+.div-centrado{
+    width: 800px;
+    margin: auto;
+}
+
+.accordion-body{
+
+    width: 757px;
+}
+
+.main h2{
+    margin: 40px;
+}
+
+.main_productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.prodsection{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+.prodsection div{
+    flex-direction: column;
+}
+.prodsection div img {
+    width: 300px;
+}
+/**NOSOTROS  */
+.div_nos{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.imgnos{
+    width: 600px;
+}
+/**PIEDRAS  */
+.piedra_grilla_padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img4 img5 img6"
+    "img7 img8 img9";
+
+}
+.img1 { grid-area: img1; }
+.img2 { grid-area: img2; }
+.img3 { grid-area: img3; }
+.img4 { grid-area: img4; }
+.img5 { grid-area: img5; }
+.img6 { grid-area: img6; }
+.img7 { grid-area: img7; }
+.img8 { grid-area: img8; }
+.img9 { grid-area: img9; }
+
+.piedra_grilla_padre{
+
+}
+
+
+/**PRODUCTOS  */
+
+/**CONTACTO  */
+.formulario{
+    margin: 50px;
+
+}
+}
