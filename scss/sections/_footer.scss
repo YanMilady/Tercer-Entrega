@@ -28,9 +28,11 @@
     .footer{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items:end;
         margin: 24px;
         flex-direction: column;
+        margin: 21px;
+        min-height: 70vh;
     }
     .footer ul{
         display: flex;
