@@ -62,21 +62,16 @@
 
 /* Estrategia: Mobile First 768px*/
 @media (min-width:768px){
-    .main h2{
-        margin: 30px
-    }
+
 
     .accordion-item{
-        height: 75px;
+        margin-bottom: 30px;
     }
 }
 
 /* Estrategia: Mobile Last 1024px*/
 @media (min-width:1024px){
     
-    .main h2 {
-            margin: 55px;
-    }
     .div-centrado{
         width: 800px;
         margin: auto;
