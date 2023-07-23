@@ -76,7 +76,9 @@
 /* Estrategia: Mobile First 768px*/
 @media (min-width: 768px) {
   .main h2 {
-    margin: 30px; } }
+    margin: 30px; }
+  .accordion-item {
+    height: 75px; } }
 
 /* Estrategia: Mobile Last 1024px*/
 @media (min-width: 1024px) {
