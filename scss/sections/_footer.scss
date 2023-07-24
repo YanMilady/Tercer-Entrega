@@ -1,3 +1,12 @@
+@media (min-width: 340px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+}
 @media (min-width:375px){
     .footer{
         display: flex;
@@ -28,11 +37,11 @@
     .footer{
         display: flex;
         justify-content: space-between;
-        align-items:end;
+        align-items: end;
         margin: 24px;
-        flex-direction: column;
+        flex-direction: row;
         margin: 21px;
-        min-height: 70vh;
+        min-height: 115vh;
     }
     .footer ul{
         display: flex;
