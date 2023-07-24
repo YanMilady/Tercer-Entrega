@@ -313,7 +313,7 @@
     margin: 24px;
     flex-direction: row;
     margin: 21px;
-    min-height: 115vh; }
+    min-height: 50vh; }
   .footer ul {
     display: flex;
     flex-wrap: wrap; }
