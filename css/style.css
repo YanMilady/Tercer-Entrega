@@ -211,6 +211,10 @@
     grid-area: img9; } }
 
 /* Estrategia: Mobile First 460px*/
+@media (min-width: 420px) {
+  .cards {
+    box-shadow: 15px 15px 30px #191919; } }
+
 .get-in-touch {
   max-width: 800px;
   margin: 50px auto;
