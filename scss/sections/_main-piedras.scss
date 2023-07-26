@@ -86,6 +86,7 @@
 /* Estrategia: Mobile Last 1024px*/
 @media (min-width:1024px){
     .piedra_grilla_padre{
+        align-items: baseline;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
