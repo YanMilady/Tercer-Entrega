@@ -3,10 +3,11 @@
         width: 150px;
     }
 
-    .main_h2{
+    .main_piedras_h1{
         display: flex;
         justify-content: center;
-        margin-top: 17px;
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
     .piedra_grilla_padre{
         display: flex;
@@ -94,6 +95,12 @@
         "img1 img2 img3"
         "img4 img5 img6"
         "img7 img8 img9";
+
+
+
+
+
+
     
     }
     .img1 { grid-area: img1; }
