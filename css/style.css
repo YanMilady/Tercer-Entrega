@@ -115,7 +115,7 @@
   .imgnos {
     width: 100%;
     padding: 10px; }
-  .main_piedras_h1 {
+  .main_nos_h1 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -246,15 +246,20 @@
   .img9 {
     grid-area: img9; } }
 
-/* Estrategia: Mobile First 460px*/
-@media (min-width: 420px) {
-  .cards {
-    box-shadow: 15px 15px 30px #191919; }
+@media (min-width: 320px) {
+  .imgnos {
+    width: 100%;
+    padding: 10px; }
   .main_prod_h1 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 40px; } }
+
+/* Estrategia: Mobile First 460px*/
+@media (min-width: 420px) {
+  .cards {
+    box-shadow: 15px 15px 30px #191919; } }
 
 .get-in-touch {
   max-width: 800px;
