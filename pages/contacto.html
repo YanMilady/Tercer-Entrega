@@ -50,31 +50,33 @@
 
     <section class="get-in-touch">
         <h1 class="title">Contactame</h1>
-        <form class="contact-form row">
+        <form class="contact-form row" action="https://docs.google.com/forms/d/e/1FAIpQLScsr1Hg8kuMmIpATGBHv1G7_FNztUxtHiY8_bVk1oAV46b63Q/viewform?usp=sharing" method="POST">
             <div class="form-field col-lg-6">
-                <input id="name" class="input-text js-input" type="text" required>
+                <input id="name" name="name" class="input-text js-input" type="text" required>
                 <label class="label" for="name">Nombre</label>
             </div>
             <div class="form-field col-lg-6 ">
-                <input id="email" class="input-text js-input" type="email" required>
+                <input id="email" name="email" class="input-text js-input" type="email" required>
                 <label class="label" for="email">E-mail</label>
             </div>
             <div class="form-field col-lg-6 ">
-                <input id="company" class="input-text js-input" type="text" required>
+                <input id="company" name="company" class="input-text js-input" type="text" required>
                 <label class="label" for="company">Motivo de consulta</label>
             </div>
             <div class="form-field col-lg-6 ">
-                <input id="phone" class="input-text js-input" type="text" required>
+                <input id="phone" name="phone" class="input-text js-input" type="text" required>
                 <label class="label" for="phone">Teléfono</label>
             </div>
             <div class="form-field col-lg-12">
-                <input id="message" class="input-text js-input" type="text" required>
+                <input id="message" name="message" class="input-text js-input" type="text" required>
                 <label class="label" for="message">Mensaje</label>
             </div>
             <div class="form-field col-lg-12">
-                <input class="submit-btn text-center" type="Enviar" value="Enviar">
+                <input class="submit-btn text-center" type="submit" value="Enviar">
             </div>
         </form>
+
+        
     </section>
 
     <footer class="footer">

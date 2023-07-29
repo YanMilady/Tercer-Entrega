@@ -15,6 +15,19 @@
                     
        }
 
+    
+}
+@media (min-width: 1024px){
+    /* Estilos para las cartas */
+.card {
+    transition: transform 0.3s ease; /* Transición suave para el cambio de tamaño */
+  }
+  
+  /* Estilos cuando el mouse pasa por encima de las cartas */
+  .card:hover {
+    transform: scale(1.1); /* Aumentar el tamaño de la carta en un 10% */
+    background-color: #f8f8f8; /* Cambiar el color de fondo al pasar el mouse */
+}
 }
 
-
+  
