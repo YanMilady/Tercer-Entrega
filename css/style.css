@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 * {
@@ -245,6 +246,9 @@
     grid-area: img9; } }
 
 @media (min-width: 320px) {
+  .row {
+    margin-left: auto;
+    margin-right: auto; }
   .main_prod_h1 {
     display: flex;
     justify-content: center;
@@ -255,6 +259,18 @@
 @media (min-width: 420px) {
   .cards {
     box-shadow: 15px 15px 30px #191919; } }
+
+@media (min-width: 1024px) {
+  /* Estilos para las cartas */
+  .card {
+    transition: transform 0.3s ease;
+    /* Transición suave para el cambio de tamaño */ }
+  /* Estilos cuando el mouse pasa por encima de las cartas */
+  .card:hover {
+    transform: scale(1.1);
+    /* Aumentar el tamaño de la carta en un 10% */
+    background-color: #f8f8f8;
+    /* Cambiar el color de fondo al pasar el mouse */ } }
 
 .get-in-touch {
   max-width: 800px;
@@ -350,7 +366,7 @@
     padding: 5px;
     font-family: 'Comfortaa', cursive; } }
 
-/* Estrategia: Mobile First 460px*/
+/* Estrategia: Mobile First 420px*/
 @media (min-width: 420px) {
   .formulario {
     font-family: 'Comfortaa', cursive; }
@@ -358,11 +374,10 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: end;
     margin: 24px;
-    margin: 21px;
-    min-height: 50vh; }
+    margin: 21px; }
   .footer ul {
     display: flex;
     flex-wrap: wrap; }
@@ -374,7 +389,7 @@
 /* Estrategia: Mobile First 768px*/
 @media (min-width: 768px) {
   .footer {
-    flex-direction: row; } }
+    align-items: end; } }
 
 .redes {
   width: fit-content;
@@ -384,8 +399,7 @@
   align-items: center;
   justify-content: center;
   padding: 25px 25px;
-  gap: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055); }
+  gap: 20px; }
 
 /* for all social containers*/
 .socialContainer {
