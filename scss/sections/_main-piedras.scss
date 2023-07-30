@@ -20,27 +20,28 @@
         align-items: center;
         padding: 10px;
     }
-    .piedra_grilla_padre p{
+
+    .img_piedra_titulo{
         padding: 6px;
         text-align: center;
         align-items: center;
         font-family: 'Comfortaa', cursive;
-    }
+        font-weight: 700;
+    }    
 
-}
-@media (min-width:375px){
-
-
-    .piedra_grilla_padre p{
+    .img_piedra_p{
+        padding: 6px;
         text-align: center;
         align-items: center;
         font-family: 'Comfortaa', cursive;
-    }
+        font-weight: 300;
+
     
-    .img_piedra_titulo{
-        font-weight: 500;
+
     }
+
 }
+
 
 /* Estrategia: Mobile First 460px*/
 @media (min-width:420px){
@@ -58,16 +59,9 @@
     .piedra_grilla_padre img{
         width: 150px;
     }
+
     
-    .piedra_grilla_padre p{
-        text-align: center;
-        align-items: center;
-        font-family: 'Comfortaa', cursive;
-    }
-    
-    .img_piedra_titulo{
-        font-weight: 500;
-    }
+
 }
 
 /* Estrategia: Mobile First 768px*/
