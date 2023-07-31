@@ -7,14 +7,16 @@
     .imgmain{
         width: 100%;
     }
-    .index_h2{
+    .index_h{
         display: flex;
-        justify-content: center;
-        margin-top: 17px;
-        align-content: center;
+        flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
+
+
 
     
 
@@ -34,21 +36,12 @@
     width: 500px;
     margin: auto;
 }
-.index_h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 25px;
-    font-family: 'Comfortaa', cursive;
-    font-size: 25px;
-    text-align: center;
-    font-size: larger;
-    
-}
+
 .accordion-body{
     width: 350px;
     text-align: justify;
     font-family: 'Comfortaa', cursive;
+    font-weight: 300;
 }
 }
 
@@ -67,16 +60,7 @@
         width: 500px;
         margin: auto;
     }
-    .index_h2{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 40px 25px;
-        font-family: 'Comfortaa', cursive;
-        font-size: 25px;
-        text-align: center;
-        
-    }
+
     .accordion-body{
         width: 350px;
         text-align: justify;

@@ -14,14 +14,13 @@
     .div_nos_p{
         margin-top: 10px;
         padding: 15px;
+        font-weight: 300;
+        text-align: center;
     }
 }
 @media (min-width:375px){
     .div_nos_p{
         padding: 15px;
-        text-align: start;
-        font-family: 'Comfortaa', cursive;
-        font-weight: 300;
     }
     .div_nos{
         display: flex;
@@ -64,4 +63,11 @@
     .imgnos{
         width: 600px;
     }
+
+    .div_nos_p{
+        margin-top: 10px;
+        padding: 15px;
+        font-weight: 300;
+        text-align: start;
+}
 }
